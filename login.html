@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Watch Collection Club</title>
+        <link href="../output/club.css" rel="stylesheet">
+		
+    </head>
+    <body>
+    <nav id='myNav'>
+		<button id="navbtn"> = </button>
+		<div class='displayNav'>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="members.html">Member</a></li>
+        <li><a href="activities.html">Meet Up</a></li>
+        <li><a href="about.html">About Us</a></li>
+		<li><a href="login.html">Welcome Back</a></li>
+
+    </ul></div>
+    </nav>
+    <main>
+        
+<body>
+	
+	<header>
+		<h2>Login Here</h2>
+	</header>
+	
+	<div id="lgnmain">
+		<div class="lgn">
+			<div>
+			<label for="usr">UserName: </label>
+			<input type ="text" id="usr" name="username">
+			</div>
+			<div>
+			<label for="pwd">Password: </label>
+			<input type="password" id="pwd" name="password">
+			</div>
+			<div>
+			<button type="button" id="btn"> Login </button>
+			</div>
+		</div>
+	</div>
+	
+		
+	<script>
+		const mybtn = document.getElementById('btn');
+		mybtn.onclick = () =>{
+			const myUsr = document.getElementById('usr').value;
+			const myPsw = document.getElementById('pwd').value;
+			console.log('email: ' + myUsr + " , password: " + myPsw);
+		}
+	</script>
+</body>
+    </main>
+	<footer>&#8986; &copy 2020 Emmanuel Gonzalez &#9203; </footer>
+	<script src="../runit.js"></script>
+	<script src="../output/navExt.js"></script>
+    </body>
+</html>
