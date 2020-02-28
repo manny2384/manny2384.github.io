@@ -1,5 +1,5 @@
 let displayOrNot = true;
-let mybtn = document.getElementById('navbtn');
+let varbtn = document.getElementById('navbtn');
 let myLinks = document.getElementsByClassName('displayNav');
 
 mybtn.onclick=()=>{
