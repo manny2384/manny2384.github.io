@@ -2,7 +2,7 @@ let displayOrNot = true;
 let varbtn = document.getElementById('navbtn');
 let myLinks = document.getElementsByClassName('displayNav');
 
-mybtn.onclick=()=>{
+varbtn.onclick=()=>{
 	
 	if(displayOrNot){
 		displayOrNot = false;
