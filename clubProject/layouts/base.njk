@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+		<name ="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>{{title}}</title>
+		<script src={{source1}}></script>
+		<script src={{source2}}></script>
+		<script></script>
+
+        <link href="club.css" rel="stylesheet">
+		<meta name="author" content="{{author}}" >
+		<meta name="description" content="{{description}}" >
+    </head>
+    <body>
+    <nav id='myNav'>
+		<button id="navbtn"> = </button>
+		<div class='displayNav'>{% include "../layouts/nav.html" %}</div>
+    </nav>
+    <main>
+        {{contents | safe}}
+    </main>
+	<footer>&#8986; &copy 2020 Emmanuel Gonzalez &#9203; </footer>
+	<script src="../runit.js"></script>
+	<script src="../src/navExt.js"></script>
+    </body>
+</html>

@@ -1,0 +1,33 @@
+
+<body>
+	
+	<header>
+		<h2>Login Here</h2>
+	</header>
+	
+	<div id="lgnmain">
+		<div class="lgn">
+			<div>
+			<label for="usr">UserName: </label>
+			<input type ="text" id="usr" name="username">
+			</div>
+			<div>
+			<label for="pwd">Password: </label>
+			<input type="password" id="pwd" name="password">
+			</div>
+			<div>
+			<button type="button" id="btn"> Login </button>
+			</div>
+		</div>
+	</div>
+	
+		
+	<script>
+		const logbtn = document.getElementById('btn');
+		logbtn.onclick = () =>{
+			const myUsr = document.getElementById('usr').value;
+			const myPsw = document.getElementById('pwd').value;
+			console.log('email: ' + myUsr + " , password: " + myPsw);
+		}
+	</script>
+</body>
